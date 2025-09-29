@@ -140,8 +140,4 @@ true
 
 This project is purely educational — a sandbox to understand LLVM IR and compiler design in Rust.
 
-```
 
-
-Do you want me to also include a **short code snippet in Rust with Inkwell** inside the README to show how Fibonacci was generated?
-```
