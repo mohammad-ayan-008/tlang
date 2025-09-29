@@ -39,6 +39,59 @@ The goal is to explore LLVM IR generation, function calls, branching, type conve
 * **Recursive function** (Fibonacci)
 * **Printing values** using `printf`
 
+## 📦 Current Language Features
+
+✅ **Numeric types (float, int conversion)**
+✅ **Strings and booleans**
+✅ **Arithmetic expressions** (`+`, `-`, `*`, `/`)
+✅ **Comparison operators** (`<`, `>`, `<=`, `>=`)
+✅ **Variables and reassignment**
+✅ **`if / else` branching**
+✅ **`while` loops**
+✅ **Printing values** (`print`)
+
+---
+
+## 📝 Example Program
+
+```c
+float a  = (6+7)/2*3;
+float b = a+2;
+print(b);
+
+string af = "lol";
+bool b = true;
+print(af);
+print(b);
+
+float a  = 6+12;
+bool a = 6 < 7;
+print(a);
+
+float d = 6;
+float c = 9;
+
+if (c >= d) {
+   print(c);
+} else {
+  print("lol");
+}
+
+print("-----------fibonacci--------------");
+float i = 0;
+float a = 0;
+float b = 1;
+
+while (i < 10) {
+  print(a);
+  float next = a + b;
+  print(next);
+  a = b;
+  b = next;
+  i = i + 1;
+}
+```
+
 ---
 
 ## 🖥️ Example Output
@@ -90,6 +143,7 @@ true
 This project is purely educational — a sandbox to understand LLVM IR and compiler design in Rust.
 
 ```
+
 
 Do you want me to also include a **short code snippet in Rust with Inkwell** inside the README to show how Fibonacci was generated?
 ```
