@@ -1,5 +1,3 @@
-Got it 👍 — here’s a **copy-ready `README.md`** without the `-no-pie` notes:
-
 ````markdown
 # TestLang (LLVM + Inkwell Playground)
 
